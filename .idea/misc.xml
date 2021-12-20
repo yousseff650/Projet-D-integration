@@ -3,10 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+
+
         <entry key="..\:/Users/Daly/AndroidStudioProjects/Projet-D-integration/app/src/main/res/drawable/ic_bxl_linkedin.xml" value="0.16197916666666667" />
         <entry key="..\:/Users/Daly/AndroidStudioProjects/Projet-D-integration/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/Daly/AndroidStudioProjects/Projet-D-integration/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/Daly/AndroidStudioProjects/Projet-D-integration/app/src/main/res/layout/activity_start.xml" value="0.16" />
+
       </map>
     </option>
   </component>

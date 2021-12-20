@@ -10,10 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjetDintergration">
         <activity
+
             android:name=".login"
             android:exported="false" />
         <activity
             android:name=".start"
+
             android:exported="false" />
         <activity
             android:name=".MainActivity"
