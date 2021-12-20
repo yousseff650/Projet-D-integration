@@ -6,16 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class start extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_start);
         getSupportActionBar().hide();
     }
     public void onClick(View v){
-        Intent i = new Intent(getApplicationContext(),start.class);
+        Intent i = new Intent(getApplicationContext(),login.class);
         startActivity(i);
     }
 }
