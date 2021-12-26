@@ -2,6 +2,7 @@ package com.example.projetdintergration;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -54,5 +55,9 @@ public class login extends AppCompatActivity {
             nEditor.commit();
             Toast.makeText(this, "this is " + nCheckBox.isChecked(), Toast.LENGTH_SHORT).show();
         }
+    }
+    public void register(View v){
+        Intent i = new Intent(getApplicationContext(),RegisterActivity.class);
+        startActivity(i);
     }
 }

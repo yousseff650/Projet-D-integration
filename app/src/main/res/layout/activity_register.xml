@@ -81,7 +81,7 @@
         <EditText
             android:id="@+id/Password"
             android:background="@drawable/custom_button_cancel"
-            android:hint="@string/password"
+            android:hint="@string/passwordd"
             android:layout_width="match_parent"
             android:paddingBottom="16dp"
             android:layout_height="wrap_content"
