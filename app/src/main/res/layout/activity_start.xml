@@ -55,7 +55,7 @@
         android:padding="20dp"
         android:background="@color/gray"
 
-        android:layout_marginTop="147dp"
+        android:layout_marginTop="100dp"
         android:backgroundTint="@color/gray1"
         >
         <TextView
