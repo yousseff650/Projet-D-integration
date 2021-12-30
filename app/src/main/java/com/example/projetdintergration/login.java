@@ -44,7 +44,7 @@ public class login extends AppCompatActivity {
 
     public void login(View v) {
 
-        if (nCheckBox.isChecked()) {
+       /* if (nCheckBox.isChecked()) {
             nEditor.putString(getString(R.string.chekbox), "True");
             nEditor.commit();
             String name = nEmail.getText().toString();
@@ -53,8 +53,14 @@ public class login extends AppCompatActivity {
             String password = nPass.getText().toString();
             nEditor.putString(getString(R.string.password), password);
             nEditor.commit();
-            Toast.makeText(this, "this is " + nCheckBox.isChecked(), Toast.LENGTH_SHORT).show();
-        }
+
+        }*/
+        Toast.makeText(this, "this is " + nCheckBox.isChecked(), Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(getApplicationContext(),page_offre_de_stage.class);
+
+        startActivity(i);
+
+
     }
     public void register(View v){
         Intent i = new Intent(getApplicationContext(),RegisterActivity.class);
