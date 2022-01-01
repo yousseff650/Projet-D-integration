@@ -56,14 +56,7 @@ public class AdapterDemande extends  RecyclerView.Adapter<AdapterDemande.Adapter
         holder.image2.setImageResource(exempleDemande.getIm2());
         holder.text.setText(exempleDemande.getText1());
         holder.text1.setText(exempleDemande.getText2());
-holder.menu.setOnClickListener(new View.OnClickListener() {
-    @Override
-    public void onClick(View view) {
-        PopupMenu popupMenu=new PopupMenu(mcontext,view);
-        popupMenu.getMenuInflater().inflate(R.menu.menu, popupMenu.getMenu());
-        popupMenu.show();
-    }
-});
+
 
 
 

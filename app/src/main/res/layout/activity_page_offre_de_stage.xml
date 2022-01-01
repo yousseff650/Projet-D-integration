@@ -13,7 +13,7 @@
         android:id="@+id/demandee"
         >
 
-        <include layout="@layout/app_bare"></include>
+
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/demande"

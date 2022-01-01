@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjetDintergration">
         <activity
+            android:name=".page_profil"
+            android:exported="true" />
+        <activity
             android:name=".page_offre_de_stage"
             android:exported="true" />
         <activity

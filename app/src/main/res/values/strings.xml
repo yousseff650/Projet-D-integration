@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Projet d\'intergration</string>
+    <string name="app_name">FinDit</string>
     <string name="chekbox">PACKAGE.chekbox</string>
     <string name="email">PACKAGE.email</string>
     <string name="password">PACKAGE.password</string>
