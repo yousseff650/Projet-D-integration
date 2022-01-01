@@ -45,15 +45,8 @@
 
         </TextView>
 
-        <ImageView
-            android:id="@+id/menu"
-            android:layout_width="30dp"
-            android:layout_height="40dp"
-            android:layout_alignParentEnd="true"
-            android:onClick="menu"
-            >
 
-        </ImageView>
+
 
 
     </RelativeLayout>
@@ -74,7 +67,16 @@
 
     ></ImageView>
 
+        <Button
+            android:id="@+id/Bdem"
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="demande"
+            android:backgroundTint="@color/B1">
 
+        </Button>
 </LinearLayout>
 
 

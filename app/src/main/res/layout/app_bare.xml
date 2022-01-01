@@ -21,11 +21,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_baseline_menu_24"
-
         android:layout_gravity="right"
-
+        app:menu="@menu/nav_barre"
         >
 
+
     </ImageView>
+
+
+
+
+
 
 </androidx.appcompat.widget.Toolbar>

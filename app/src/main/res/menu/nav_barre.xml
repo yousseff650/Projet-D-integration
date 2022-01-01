@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+    <item
+        android:id="@+id/menu"
+        android:icon="@drawable/ic_baseline_menu_24"
+        android:title="profil"
+        app:showAsAction="ifRoom"
+        >
+        <menu>
+            <item
+            android:id="@+id/profil"
+                android:icon="@drawable/ic_baseline_person_24"
+            android:title="profil"
+            app:showAsAction="never"
+
+            />
+            <item
+                android:id="@+id/dem"
+                android:title="Demande accépter"
+                />
+            <item
+                android:id="@+id/File"
+                android:title="Files"
+                />
+            <item
+                android:id="@+id/demEv"
+                android:title="Demande Envoyer"
+                />
+            <item
+                android:id="@+id/param"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="Parametres"
+                />
+
+
+        </menu>
+
+
+
+    </item>
+
+
+
+</menu>

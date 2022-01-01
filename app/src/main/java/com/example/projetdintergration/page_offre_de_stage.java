@@ -6,7 +6,9 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
@@ -18,6 +20,7 @@ import android.widget.Toast;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class page_offre_de_stage extends AppCompatActivity {
     private RecyclerView recyclerView;
@@ -31,7 +34,8 @@ public class page_offre_de_stage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page_offre_de_stage);
-        getSupportActionBar().hide();
+        Objects.requireNonNull(getSupportActionBar()).setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.B1)));
+       // getSupportActionBar().hide();
      //  toolbar=findViewById(R.id.navbar);
       //  setSupportActionBar(toolbar);
 
@@ -82,5 +86,9 @@ public class page_offre_de_stage extends AppCompatActivity {
         });
     }
 
-
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.nav_barre,menu);
+        return true;
+    }
 }
