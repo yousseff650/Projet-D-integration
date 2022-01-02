@@ -56,7 +56,7 @@ public class login extends AppCompatActivity {
 
         }*/
         Toast.makeText(this, "this is " + nCheckBox.isChecked(), Toast.LENGTH_SHORT).show();
-        Intent i = new Intent(getApplicationContext(),page_profil.class);
+        Intent i = new Intent(getApplicationContext(),page_offre_de_stage.class);
 
         startActivity(i);
 
