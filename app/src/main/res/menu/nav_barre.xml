@@ -21,6 +21,11 @@
                 android:id="@+id/dem"
                 android:title="Demande accépter"
                 />
+
+            <item
+                android:id="@+id/offre"
+                android:title="offres stages"
+                />
             <item
                 android:id="@+id/File"
                 android:title="Files"
